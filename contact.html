@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles1.css" />
+    <title>Document</title>
+  </head>
+  <body class="contact__body">
+    <div class="alert"></div>
+    <main>
+      <div class="form_container">
+        <form>
+          <label for="fullname">Your Full Name</label>
+          <input type="text" name="fullname" id="fullname" />
+          <p class="error fullnameError">Please enter your full name</p>
+
+          <label for="adress">Your Adress</label>
+          <input type="text" name="adress" id="adress" />
+          <p class="error adressError">
+            Your adress needs to be more than 25 letters
+          </p>
+
+          <label for="email">Your Email</label>
+          <input type="text" name="email" id="email" />
+          <p class="error emailError">Please enter a valid email</p>
+
+          <label for="textbox">Subject</label>
+          <input type="text" name="textbox" id="textbox" />
+          <p class="error textboxError">Please enter more than 10 letters</p>
+
+          <button id="submit">Log in</button>
+        </form>
+      </div>
+    </main>
+    <script src="/js/script1.js"></script>
+  </body>
+</html>
