@@ -1,6 +1,27 @@
+* {
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  color: black;
+}
+
 .header-nav {
-  width: 90%;
+  width: 100%;
   display: flex;
-  justify-content: flex-end;
-  margin-top: 120px;
+  justify-content: space-between;
+  height: 250px;
+  align-items: center;
+}
+
+.login__btn, .headerlist {
+  font-size: larger ;
+  font-weight: 600;
+}
+
+.nav__link {
+  text-align: center;
+  width: 10%;
+  border: 2px solid black;
 }

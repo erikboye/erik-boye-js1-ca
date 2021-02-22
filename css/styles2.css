@@ -1,17 +1,26 @@
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: rgba(180, 102, 12, 0.438);
+  background-color: #eea046ee;
 }
 
 .pokediv {
+  border: rgb(66, 214, 90) solid 2px;
+  width: 20%;
+  margin: auto;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
 }
 
 .pokepic {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.pokeinfo {
+  width: 100%;
 }
 
 h2 {
